@@ -1,0 +1,42 @@
+
+@import 'main-styles.sass'
+
+.section-wrapper.gallery
+    background-color: $green
+    color: $background-color
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    text-align: center
+    padding: 0
+    .gallery-holder img
+        width: 100%
+        filter: brightness(.7)
+        object-fit: cover
+        display: flex
+    h2
+        margin: 35px 0
+
+.gallery-holder
+    margin: 0
+    display: flex
+    flex-direction: column
+    justify-content: space-around
+    align-items: center
+    width: 100%
+
+.category-holder
+    position: relative
+    width: 100%
+
+h4.category
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    text-transform: uppercase
+    font-size: 36px
+    padding: 0
+    margin: 0
+    letter-spacing: 4px
+    z-index: 100
